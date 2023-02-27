@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  background: rgb(60, 60, 61);
+  color: white;
 }
 
 .App-logo {
@@ -19,7 +20,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
 }
 
 .App-link {
@@ -36,4 +36,54 @@
   100% {
     transform: translateY(0px);
   }
+}
+
+.star-wars-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.displayCard {
+  background-color: rgb(97, 97, 97);
+}
+
+h1, h2, h3, h4 {
+  margin-top: 0;
+  margin-bottom: 0.6em;
+}
+
+.displayCard > p, .savedCharacter > p, .homeworld-films > div > p{
+  margin: 0.2em auto;
+}
+
+.savedCharacter {
+  background-color: rgb(79, 79, 79);
+  margin-bottom: 1em;
+}
+
+.displayCard, .savedCharacter {
+  border-radius: 16px;
+  padding: 1em;
+}
+
+.homeworld-films {
+  margin-top: 1em;
+  display: flex;
+}
+
+.homeworld, .films {
+  width: 50%;
+}
+
+input {
+  padding: 1em;
+  margin-bottom: 1.5em;
+}
+
+button {
+  background-color: rgb(41, 169, 75);
+  padding: 1em;
+  border-radius: 7px;
+  color: white;
 }

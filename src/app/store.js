@@ -1,8 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import starWarsReducer from '../features/starwars/starWarsSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    starwars: starWarsReducer,
   },
 });
+
